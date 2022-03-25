@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
-import Social_Icons from "./Social_Icons";
+import SocialIcons from "./SocialIcons";
 import NavLinks from "./NavLinks";
 import { FaBars } from "react-icons/fa";
 import "./navBar.css";
@@ -17,7 +17,7 @@ const NavBar = () => {
 				</div>
 				<div className={`nav-footer ${toggle ? "show-container" : ""}`}>
 					<NavLinks />
-					<Social_Icons />
+					<SocialIcons />
 				</div>
 			</div>
 		</nav>
