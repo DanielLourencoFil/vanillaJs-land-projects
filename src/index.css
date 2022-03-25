@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root {
 	--primary-color-100: #fff;
+	--primary-color-200: #ebebeb;
 	--primary-color-400: #555;
 	--js-color-100: #d6ba32;
 	--css-color-100: #285ea8;
@@ -216,16 +217,6 @@ body {
 	}
 }
 /* HERO */
-.main-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 85vw;
-	margin: 0 auto;
-	padding-bottom: 2rem;
-	gap: 4rem;
-}
 
 .hero {
 	display: flex;
@@ -320,7 +311,7 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	gap: 2rem;
-	background-color: var(--primary-color-500);
+	background-color: var(--primary-color-200);
 }
 .project-cards-container {
 	width: 70%;
