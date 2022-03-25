@@ -15,7 +15,7 @@ const MainTitle = ({ title }) => {
 		bordeRadius: "0.5rem",
 		margin: "0 auto",
 		marginTop: ".5rem",
-		marginBottom: "3rem",
+		marginBottom: "5rem",
 		backgroundColor: "#4a9fff",
 		borderRadius: "5px",
 	};

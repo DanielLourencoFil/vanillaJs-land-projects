@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import Social_Icons from "./Social_Icons";
 import NavLinks from "./NavLinks";
 import { FaBars } from "react-icons/fa";
+import "./navBar.css";
 
 const NavBar = () => {
 	const [toggle, setToggle] = useState(false);

@@ -1,9 +1,4 @@
-const dataProjects = [
-	{
-		img: "../images/01-travel-journal.png",
-		title: "Travel Journal",
-		url: "https://america-latina-bike-trip.netlify.app/",
-	},
+export const dataProjects = [
 	{
 		img: "../images/02-imc-calculator.png",
 		title: "Imc Calculator",
@@ -65,5 +60,42 @@ const dataProjects = [
 		url: "https://wine-house-shop-case-04.netlify.app/",
 	},
 ];
-
-export default dataProjects;
+export const dataProjectsCourses = [
+	{
+		img: "../images/08-navbar-01.png",
+		title: "Navbar and Scroll Sections",
+		url: "https://navbar-project-01.netlify.app/",
+	},
+	{
+		img: "../images/09-navbar-02.png",
+		title: "Navbar Rotate",
+		url: "https://navabar-project-02.netlify.app/",
+	},
+	{
+		img: "../images/project-webpage-01.png",
+		title: "Porfolio John Doe",
+		url: "https://porfolio-project-case-01.netlify.app/",
+	},
+	{
+		img: "../images/project-webpage-02.png",
+		title: "Tea Shop",
+		url: "https://tea-shop-case-03.netlify.app/",
+	},
+	{
+		img: "../images/project-webpage-03.png",
+		title: "Back Roads",
+		url: "https://backroads-tour-company-case-02.netlify.app/",
+	},
+	{
+		img: "../images/project-webpage-04.png",
+		title: "Wine House Shop",
+		url: "https://wine-house-shop-case-04.netlify.app/",
+	},
+];
+export const dataProjectsSpecial = [
+	{
+		img: "../images/01-travel-journal.png",
+		title: "Travel Journal",
+		url: "https://america-latina-bike-trip.netlify.app/",
+	},
+];
