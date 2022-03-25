@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
-		<footer class="footer scroll-section">
+		<footer className="footer scroll-section">
 			<div className="copy-rigth">
 				Copyrigth &copy;{"  "}
 				<span className="logo-footer">

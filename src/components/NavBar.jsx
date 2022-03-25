@@ -7,7 +7,6 @@ import "./navBar.css";
 
 const NavBar = () => {
 	const [toggle, setToggle] = useState(false);
-	console.log(toggle);
 	return (
 		<nav className="nav-container" id="navbar">
 			<div className="nav-center">

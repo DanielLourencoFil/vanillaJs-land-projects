@@ -10,6 +10,7 @@ import {
 	dataProjectsCourses,
 	dataProjectsSpecial,
 } from "./dataProjects";
+import BacktoTopBtn from "./components/BacktoTopBtn";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -29,6 +30,7 @@ ReactDOM.render(
 		/>
 		<SectionProjects data={dataProjectsCourses} title={"Courses Projects"} />
 		<Footer />
+		<BacktoTopBtn />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
