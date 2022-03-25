@@ -10,6 +10,7 @@ ReactDOM.render(
 		{document.addEventListener("DOMContentLoaded", () => {
 			<Loading />;
 		})}
+
 		<Hero />
 		<App />
 	</React.StrictMode>,
