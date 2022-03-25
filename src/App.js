@@ -7,8 +7,8 @@ function App() {
 		<section id="projects" className="projects-container">
 			<MainTitle title={"Basic Projects"} />
 			<div className="project-cards-container">
-				{dataProjects.map((item) => {
-					return <ProjectCard data={item} />;
+				{dataProjects.map((item, index) => {
+					return <ProjectCard data={item} key={index} />;
 				})}
 			</div>
 		</section>
