@@ -39,26 +39,6 @@ export const dataProjects = [
 		title: "Navbar Rotate",
 		url: "https://navabar-project-02.netlify.app/",
 	},
-	{
-		img: "../images/project-webpage-01.png",
-		title: "Porfolio John Doe",
-		url: "https://porfolio-project-case-01.netlify.app/",
-	},
-	{
-		img: "../images/project-webpage-02.png",
-		title: "Tea Shop",
-		url: "https://tea-shop-case-03.netlify.app/",
-	},
-	{
-		img: "../images/project-webpage-03.png",
-		title: "Back Roads",
-		url: "https://backroads-tour-company-case-02.netlify.app/",
-	},
-	{
-		img: "../images/project-webpage-04.png",
-		title: "Wine House Shop",
-		url: "https://wine-house-shop-case-04.netlify.app/",
-	},
 ];
 export const dataProjectsCourses = [
 	{
