@@ -5,7 +5,7 @@ import SectionProjects from "./components/SectionProjects";
 import Hero from "./components/Hero";
 import Loading from "./components/Loading";
 import Footer from "./components/Footer";
-import BackToTopBtn from "./components/BackToTopBtn";
+import BackTopBtn from "./components/BackTopBtn";
 import {
 	dataProjects,
 	dataProjectsCourses,
@@ -30,7 +30,7 @@ ReactDOM.render(
 		/>
 		<SectionProjects data={dataProjectsCourses} title={"Courses Projects"} />
 		<Footer />
-		<BackToTopBtn />
+		<BackTopBtn />
 	</React.StrictMode>,
 	document.getElementById("root")
 );
