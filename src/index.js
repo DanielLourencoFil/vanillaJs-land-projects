@@ -22,6 +22,7 @@ ReactDOM.render(
 			data={dataProjectsSpecial}
 			title={"Special Project"}
 			display={"flex"}
+			width={"60%"}
 		/>
 		<SectionProjects
 			data={dataProjects}

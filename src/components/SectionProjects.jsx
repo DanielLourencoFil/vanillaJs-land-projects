@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 import MainTitle from "./MainTitle";
 import "./sectionProjects.css";
 
-function SectionProjects({ data, title, bgColor, display }) {
+function SectionProjects({ data, title, bgColor, display, width }) {
 	return (
 		<section
 			id="projects"
@@ -10,7 +10,10 @@ function SectionProjects({ data, title, bgColor, display }) {
 			className="projects-container"
 		>
 			<MainTitle title={title} />
-			<div style={{ display: display }} className="project-cards-container">
+			<div
+				style={{ display: display, width: width }}
+				className="project-cards-container"
+			>
 				{data.map((item, index) => {
 					return <ProjectCard data={item} key={index} />;
 				})}
